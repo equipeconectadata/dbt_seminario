@@ -1,0 +1,12 @@
+
+version: 2
+
+models:
+  - name: get_data_from_fato
+    description: "A dimension table"
+    columns:
+      - name: id_pessoa
+        description: "The primary key from peoples"
+        data_tests:
+          - unique
+          - not_null
