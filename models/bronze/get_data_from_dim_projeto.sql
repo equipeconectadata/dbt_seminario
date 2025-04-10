@@ -9,14 +9,14 @@
 
 {{ config(materialized='view') }}
 
-with mdimp as (
+with olap_dim_projeto as (
 
-    select * from dim_pessoa
+    select * from  dim_projeto
 
 )
 
 select *
-from mdimp
+from olap_dim_projeto
 
 /*
     Uncomment the line below to remove records with null `id` values

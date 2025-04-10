@@ -2,6 +2,14 @@
 version: 2
 
 models:
+  - name: get_data_from_dim_pessoa
+    description: "A dimension table"
+    columns:
+      - name: id_pessoa
+        description: "The primary key from peoples"
+        data_tests:
+          - unique
+          - not_null
   - name: get_data_from_fato
     description: "A dimension table"
     columns:

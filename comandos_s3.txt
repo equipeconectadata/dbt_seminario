@@ -1,0 +1,161 @@
+    1  ls
+    2  code .
+    3  pip install dbt-core dbt-postgres
+    4  apt get install pip
+    5  sudo apt install pip
+    6  sudo apt-get install python3-pip
+    7  sudo apt update
+    8  sudo apt-get install python3-pip
+    9  pip install dbt-core dbt-postgres
+   10  python3 -n venv .venv
+   11  python3 -m venv .venv
+   12  apt install python3.12-venv
+   13  sudo apt install python3.12-venv
+   14  python3 -m venv .venv
+   15  source .venv/bin/activate
+   16  pip install dbt-core dbt-postgres
+   17  history
+   18  dbt init seminario
+   19  ls
+   20  history
+   21  ls
+   22  dbt debug
+   23  cd seminario
+   24  dbt debug
+   25  ls
+   26  code .
+   27  dbt run
+   28  dbt debug
+   29  dbt run
+   30  dbt build
+   31  dbt test
+   32  dbt debug
+   33  history > comandos.txt
+   34  cat comandos.txt
+   35  ls
+   36  cd seminario/
+   37  source .venv/bin/activate
+   38  pip freeze
+   39  deactivate
+   40  cd ..
+   41  source .venv/
+   42  source .venv/bin/activate
+   43  pip freeze
+   44  exit
+   45  history
+   46  ls
+   47  cd seminario
+   48  history
+   49  cat
+   50  cd ..
+   51  source .venv/bin/activate
+   52  history
+   53  cat ~/.bash_history
+   54  ls 
+   55  code .
+   56  ls
+   57  git status
+   58  cd seminario/
+   59  ls
+   60  git status
+   61  ls
+   62  cd ..
+   63  cd seminario/
+   64  ls
+   65  cd ..
+   66  ls
+   67  cd seminario/
+   68  ls
+   69  cat README.md 
+   70  echo "# dbt_seminario" >> README.md
+   71  git init
+   72  git add README.md
+   73  git commit -m "first commit"
+   74  git branch -M main
+   75  git remote add origin https://github.com/equipeconectadata/dbt_seminario.git
+   76  git push -u origin main
+   77  git config --global user.mail "equipe.conecta.data@gmail.com"
+   78  git config --global user.name "equipeconectadata"
+   79  git push -u origin main
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit -m "fist commit dbt"
+   84  git bracnh
+   85  git branch
+   86  git remote add origin https://github.com/equipeconectadata/dbt_seminario.git
+   87  git remote -v
+   88  git push -u origin main
+   89  git status
+   90  git add .
+   91  git status
+   92  git commit -m "delete files"
+   93  git push -u origin main
+   94  history
+   95  dbt debut
+   96  dbt debug
+   97  history
+   98  dbt docs generate
+   99  dbt docs serve
+  100  ls
+  101  cd seminario/
+  102  ls
+  103  git status
+  104  cd models/
+  105  ls
+  106  cd silver/
+  107  ls
+  108  cat dim_pessoa_nomes_tratados.sql 
+  109  cd ..
+  110  mkdir gold
+  111  dir
+  112  ls
+  113  code .
+  114  dbt init
+  115  ls
+  116  cd ..
+  117  ls
+  118  dbt init
+  119  dbt 
+  120  ls
+  121  cd ..
+  122  ls
+  123  source .venv/bin/activate
+  124  ls
+  125  pip freeze
+  126  dbt
+  127  ls
+  128  cd seminario/
+  129  s
+  130  ls
+  131  dbt debug
+  132  dbt test
+  133  dbt run
+  134  dbt docs generate
+  135  dbt docs serve
+  136  dbt test
+  137  target/run_results.json~
+  138  dbt test -v
+  139  dbt test help
+  140  dbt test -h
+  141  dbt test -d
+  142  dbt test --log-level debug
+  143  dbt test --log-level info
+  144  dbt test --store-failures
+  145  dbt run
+  146  tree
+  147  code .
+  148  dbt test --store-failures
+  149  dbt debug
+  150  dbt test --store-failures
+  151  dbt run
+  152  dbt test --store-failures
+  153  dbt docs generate
+  154  dbt docs serve
+  155  dbt debug
+  156  dbt test --store-failures
+  157  dbt test -m staging  --store-failures
+  158  tree
+  159  dbt test -m bronze --store-failures
+  160  history
+  161  history>comandos_s3.txt
